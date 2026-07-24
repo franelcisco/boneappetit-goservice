@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Notification</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5e3c8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        color: #333;
+        box-sizing: border-box;
+      }
+
+      .logo {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+      }
+
+      .logo img {
+        width: 50px;
+        height: auto;
+      }
+
+      .container {
+        text-align: center;
+        padding: 16px;
+        width: 90%;
+        max-width: 400px;
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+
+      .title span {
+        color: #ffc107;
+        font-size: 28px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+        color: #555;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 16px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #f5a80a;
+        border: none;
+        border-radius: 16px;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+      }
+
+      .button:hover {
+        background-color: #e0a906;
+      }
+
+      @media (max-width: 600px) {
+        .title {
+          font-size: 20px;
+        }
+
+        .subtitle {
+          font-size: 14px;
+        }
+
+        .logo img {
+          width: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        src="https://www.boneappetit.food/cdn/shop/files/wepik--20240711111514MpmI.png?v=1720696543&width=120"
+        alt="Bone Appetit Logo"
+      />
+    </div>
+    <div class="container">
+      <div class="title">
+        Ocurrio un error al generar tu orden <span>🥺</span>
+      </div>
+      <div class="subtitle">
+        Si el problema persiste, por favor contacta a soporte.
+      </div>
+      <a href="https://suscripciones-boneappetit.lovable.app" class="button"
+        >Ir a mis suscripciones</a
+      >
+    </div>
+  </body>
+</html>
